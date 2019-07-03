@@ -56,6 +56,9 @@
                             <constraint firstItem="7QD-VY-8jk" firstAttribute="centerX" secondItem="unj-bz-KTI" secondAttribute="centerX" id="rYA-Va-SO3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t9i-jc-sY8"/>
+                        <connections>
+                            <outlet property="gameTitle" destination="Pmt-2y-asw" id="gkT-jq-CC8"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCs-wx-6IM" userLabel="First Responder" sceneMemberID="firstResponder"/>
