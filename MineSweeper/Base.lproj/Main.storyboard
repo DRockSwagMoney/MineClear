@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jdV-Ir-Ggd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,46 +24,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="320" y="139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="yjQ-8I-YU7">
-            <objects>
-                <viewController id="jdV-Ir-Ggd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="unj-bz-KTI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QD-VY-8jk">
-                                <rect key="frame" x="124" y="311.5" width="127" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Start Game"/>
-                                <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="1WL-v4-U1I"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mine Sweeper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmt-2y-asw">
-                                <rect key="frame" x="59.5" y="182" width="256" height="51"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="7QD-VY-8jk" firstAttribute="centerY" secondItem="unj-bz-KTI" secondAttribute="centerY" id="Cwf-sk-30h"/>
-                            <constraint firstItem="Pmt-2y-asw" firstAttribute="centerX" secondItem="unj-bz-KTI" secondAttribute="centerX" id="OTJ-7u-sEF"/>
-                            <constraint firstItem="7QD-VY-8jk" firstAttribute="top" secondItem="Pmt-2y-asw" secondAttribute="bottom" constant="78.5" id="mES-eG-GXh"/>
-                            <constraint firstItem="7QD-VY-8jk" firstAttribute="centerX" secondItem="unj-bz-KTI" secondAttribute="centerX" id="rYA-Va-SO3"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="t9i-jc-sY8"/>
-                        <connections>
-                            <outlet property="gameTitle" destination="Pmt-2y-asw" id="gkT-jq-CC8"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zCs-wx-6IM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-623" y="139"/>
         </scene>
     </scenes>
 </document>
