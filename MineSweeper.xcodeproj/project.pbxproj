@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D33C650522CCF27F00746D44 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C650422CCF27F00746D44 /* MenuScene.swift */; };
+		D38B79B222DA451900AAF138 /* TIle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B79B122DA451900AAF138 /* TIle.swift */; };
 		D3BC53CE22BC70A000DFBC5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC53CD22BC70A000DFBC5F /* AppDelegate.swift */; };
 		D3BC53D022BC70A000DFBC5F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3BC53CF22BC70A000DFBC5F /* GameScene.sks */; };
 		D3BC53D222BC70A000DFBC5F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3BC53D122BC70A000DFBC5F /* Actions.sks */; };
@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D33C650422CCF27F00746D44 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		D38B79B122DA451900AAF138 /* TIle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIle.swift; sourceTree = "<group>"; };
 		D3BC53CA22BC70A000DFBC5F /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BC53CD22BC70A000DFBC5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3BC53CF22BC70A000DFBC5F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 			children = (
 				D3BC53CD22BC70A000DFBC5F /* AppDelegate.swift */,
 				D3BC53CF22BC70A000DFBC5F /* GameScene.sks */,
-				D33C650422CCF27F00746D44 /* MenuScene.swift */,
 				D3BC53D122BC70A000DFBC5F /* Actions.sks */,
 				D3BC53D322BC70A000DFBC5F /* GameScene.swift */,
+				D38B79B122DA451900AAF138 /* TIle.swift */,
 				D3BC53D522BC70A000DFBC5F /* GameViewController.swift */,
 				D3BC53D722BC70A000DFBC5F /* Main.storyboard */,
 				D3BC53DA22BC70A100DFBC5F /* Assets.xcassets */,
@@ -212,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BC53D422BC70A000DFBC5F /* GameScene.swift in Sources */,
-				D33C650522CCF27F00746D44 /* MenuScene.swift in Sources */,
 				D3BC53D622BC70A000DFBC5F /* GameViewController.swift in Sources */,
 				D3BC53CE22BC70A000DFBC5F /* AppDelegate.swift in Sources */,
+				D38B79B222DA451900AAF138 /* TIle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
